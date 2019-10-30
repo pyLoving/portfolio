@@ -1,16 +1,16 @@
 body
 {
     background-image: linear-gradient(45deg, #B01080 , black);
-	color: #efefef;
+	  color: #efefef;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
-/* flex_box_top */
+/* flex_box */
 
 .box {
     color:white;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     text-shadow:4px 4px 0 rgba(0,0,0,0.1);
     padding:10px;
@@ -19,6 +19,8 @@ body
   .box1 { background:#B01080;}
   .box2 { background:#6D1DB6;}
   .box3 { background:#DE1469;}
+  .box4 { background:#B01080;}
+  .box5 { background:#6D1DB6;}
  
   .container_flex {
     display:flex;
@@ -30,43 +32,93 @@ body
     
     } 
 
+  .box1 p {
+    text-align: center;
+    margin: auto;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
   .box1 img {
-    height: 50vh;
+    height: 35vh;
+    margin: 20px;
     } 
   .box2 {
     flex: auto;
-    
-    }
-  .box2 p {
-    max-width: 40vw;
-    font-size: 18px;
     text-align: center;
-    margin: 10px;
-   }
+    }
+
+  .box2 p, ul {
+    max-width: 60vw;
+    text-align: center;
+    font-size: 18px;
+    margin: 5vh auto;
+    }
   .box3 {
     flex: auto;
+    }
+
+  .box3 img {
+    height: 15vh;
+    margin: 10px;
+    }
+
+  .box4 {
+    flex: auto;
+    }
+
+  .box4 p.header {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+  .box4 p.addres {
+    font-weight: 300;
+    font-size: 22px;
+    }
+
+
+  .box5 {
+    flex: auto;
+    }
+
+  .box5 img {
+    height: 10vh;
+    margin: 10px;
+    border: 2px solid #DE1469;
+    box-shadow: 5px 5px 15px black;
     }
 
 /* bootstrap */
 h1
 {
-	font-size: 48px;
-	font-weight: 400;
+	font-size: 40px;
+  font-weight: 400;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
 	color: rgb(255, 255, 255);
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
-.jumpers
+.container img {
+  /* border-radius: 6px; */
+  border: 3px solid #DE1469;
+  box-shadow: 5px 5px 25px black;
+
+}
+
+.bootstrap
 {
 	text-align: center;
 	padding: 0;
 }
 
-.jumpers p {
+/* .bootstrap p {
 	margin-bottom: 30px;
 }
 
-.jumpers figcaption {
+.bootstrap figcaption {
 	margin-top: 8px;
-}
+} */

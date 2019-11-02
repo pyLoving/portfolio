@@ -6,11 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Portfolio ŁukaSZ.</title>
 	<meta name="description" content="Portfolio ŁukaSZ.">
-	<meta name="keywords" content="skoki narciarskie, skoczkowie, wyniki">
+	<meta name="keywords" content="web, www, design, strony internetowe, projektowanie, serwisy">
 	<meta name="author" content="Łukasz Szulc">
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Ubuntu:700&display=swap&subset=latin-ext" rel="stylesheet">
 	
 	<!--[if lt IE 9]>
@@ -21,6 +22,35 @@
 
 <body>
     <main>
+
+        <section id="menu">
+            <div class="menu">
+                <a href="#top">
+                    <div class="menu_item">
+                        <p>Top</p>
+                        <span class="menu_icon"><i class="icon-home"></i></span>
+                    </div>
+                </a>
+                <a href="#TechStack">
+                    <div class="menu_item">
+                        <p>Tech Stack</p>
+                        <span class="menu_icon"><i class="icon-stackoverflow"></i></span>
+                    </div>
+                </a>
+                <a href="#Portfolio">
+                    <div class="menu_item">
+                        <p>Portfolio</p>
+                        <span class="menu_icon"><i class="icon-art-gallery"></i></span>
+                    </div>
+                </a>
+                <a href="#Kontakt">
+                    <div class="menu_item">
+                        <p>Kontakt</p>
+                        <span class="menu_icon"><i class="icon-users"></i></span>
+                    </div>
+                </a>
+            </div>
+        </section>
         <section id="flex_top">
             <div class="container_flex">
                 <div class="box box1">
@@ -28,16 +58,12 @@
                     <p>WebDesign</p>
                 </div>
                 <div class="box box2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae mi at magna porta efficitur. Curabitur eget luctus urna, euismod sodales massa. <strong>Curabitur odio sapien</strong>, ultrices quis cursus a, congue vel augue. Integer finibus vel neque vel eleifend. Ut purus arcu, vehicula in posuere semper, rhoncus vel felis. Nunc vehicula lorem quis felis tempus, vel consequat lorem rutrum. </p>
-                        <ul>
-                            <li>Suspendisse tempus lectus ipsum,</li>
-                            <li>vel dapibus mi lobortis eu,</li>
-                            <li>curabitur nec libero dictum.</li>
-                        </ul>
-                    <p>Pellentesque ex sit amet, consequat augue. Donec in congue ipsum. Nam accumsan in neque eu luctus. Ut sodales feugiat tortor eu vestibulum. Donec lorem lectus, fringilla at ex eget, mollis blandit purus.
-                    </p>
-                </div>
-                <div class="box box3">
+                    <p></p>
+                    <p>Strona internetowa kreuje <strong>wizerunek Twojej firmy</strong> w sieci. Badania „Rzetelność polskich firm okiem konsumenta” przeprowadzone przez Millward Brown SMG/KRC na zlecenie Rzetelnej Firmy wskazują, że około <strong>81% respondentów sprawdza wiarygodność firmy właśnie w Interencie</strong>. </p>
+                    <p>To niezbędne narzędzie powinno być dopracowane w każdym szczególe i dopasowane do Twojej firmy. Dlatego projektowanie strony internetowej najlepiej zlecić <strong>profesjonalnej firmie</strong>. Nasza agencja tworzy tylko nowoczesne i skuteczne narzędzia, które pomagają naszym klientom zwiększać zyski!</p>
+                    <p class="big">Zapraszamy do współpracy!</p>
+            </div>
+                <div class="box box3" id="TechStack">
                     <p>Tech Stack</p>
                     <img src="img/htmllogo.png" alt="Html logo">
                     <img src="img/csslogo.png" alt="CSS logo">
@@ -53,68 +79,114 @@
         </section>
 
         <section id="bootstrap">
+            <div id="Portfolio" class="menu_link"></div>
             <header>
                 <h1>Portfolio</h1>
             </header>
             <div class="container">
                 <div class="row no-gutters">
-                    <div class="col-sm-6 col-lg-4">
+                    <div class="col-sm-6 col-lg-4" class="image_1">
                 
-                            <figure>
-                                <a href="#"><img src="img/web_sites_1.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                            </figure>
+                        <figure>
+                            <div class="overlay">
+                            <a href="#"><img src="img/web_sites_1.jpg" class="img-fluid" alt="WEB portfolio image"></a>
+                            <a href="#" class="link">
+                                <span class="icon">
+                                    <i class="icon-link-ext-alt"></i>
+                                    <p>Zobacz realizację</p>
+                                </span>
+                            </a>
+                            <div>
+                        </figure>
+                    
+                    </div>
                         
-                        </div>
-                        
-                        <div class="col-sm-6 col-lg-4">
-                        
-                            <figure>
+                    <div class="col-sm-6 col-lg-4">
+                    
+                        <figure>
+                                <div class="overlay">
                                 <a href="#"><img src="img/web_sites_2.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                            </figure>
-                        
-                        </div>
-    
-                        <div class="col-sm-6 col-lg-4">
-                        
-                            <figure>
+                                <a href="#" class="link">
+                                    <span class="icon">
+                                        <i class="icon-link-ext-alt"></i>
+                                        <p>Zobacz realizację</p>
+                                    </span>
+                                </a>
+                                <div>
+                        </figure>
+                    
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                    
+                        <figure>
+                                <div class="overlay">
                                 <a href="#"><img src="img/web_sites_3.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                           </figure>
-                        
-                        </div>
-    
-                        <div class="col-sm-6 col-lg-4">
-                        
-                            <figure>
+                                <a href="#" class="link">
+                                    <span class="icon">
+                                        <i class="icon-link-ext-alt"></i>
+                                        <p>Zobacz realizację</p>
+                                    </span>
+                                </a>
+                                <div>
+                        </figure>
+                    
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                    
+                        <figure>
+                                <div class="overlay">
                                 <a href="#"><img src="img/web_sites_4.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                           </figure>
-                        
-                        </div>
-    
-                        <div class="col-sm-6 col-lg-4">
-                        
-                            <figure>
+                                <a href="#" class="link">
+                                    <span class="icon">
+                                        <i class="icon-link-ext-alt"></i>
+                                        <p>Zobacz realizację</p>
+                                    </span>
+                                </a>
+                                <div>
+                        </figure>
+                    
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                    
+                        <figure>
+                                <div class="overlay">
                                 <a href="#"><img src="img/web_sites_5.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                            </figure>
-                        
-                        </div>
-    
-                        <div class="col-sm-6 col-lg-4">
-                        
-                            <figure>
+                                <a href="#" class="link">
+                                    <span class="icon">
+                                        <i class="icon-link-ext-alt"></i>
+                                        <p>Zobacz realizację</p>
+                                    </span>
+                                </a>
+                                <div>
+                        </figure>
+                    
+                    </div>
+
+                    <div class="col-sm-6 col-lg-4">
+                    
+                        <figure>
+                                <div class="overlay">
                                 <a href="#"><img src="img/web_sites_6.jpg" class="img-fluid" alt="WEB portfolio image"></a>
-                            </figure>
-                        
-                        </div>
-                    </div>		
+                                <a href="#" class="link">
+                                    <span class="icon">
+                                        <i class="icon-link-ext-alt"></i>
+                                        <p>Zobacz realizację</p>
+                                    </span>
+                                </a>
+                                <div>
+                        </figure>
+                    
+                    </div>
                 </div>
-
-
             </div>
 
         </section>
 
         <section id="flex_bottom">
-            <header>
+            <header id="Kontakt">
                 <h1>Kontakt</h1>
             </header>
             <div class="container_flex">
@@ -123,7 +195,7 @@
                         <p class="addres">ul. Okrężna 20 <br>
                             99-905 Łapiedrony<br>
                             tel. 000-567-567<br>
-                            yes@webdesign.you
+                            <a href="mailto:yes@webdesign.you" class="email">yes@webdesign.you</a>
                         </p>
             
                     </div>
